@@ -11,12 +11,12 @@ const nodemailer = require('nodemailer');
 
 
 const transporter = nodemailer.createTransport({
-    host: 'yourhost.com',
-    port: 465, 
+    host: 'mxslurp.click',
+    port: 2525, 
     secure: true,
     auth: {
-        user: 'whatever@yours.com',
-        pass: ''
+        user: '4Dz4YVEOkx3zd77eZ0ERwqyC3xojor2X',
+        pass: 'pa96AaB7ZIHrrxL1qD8GWBOshZnGgEfk'
     }
 });
 
