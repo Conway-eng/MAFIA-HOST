@@ -17,7 +17,7 @@ class EmailSenderManager {
             const {
                 email,
                 password,
-                host = 'mail.talkdrove.cc.nf',
+                host = 'relay.dnsexit.com',
                 port = 587,
                 daily_limit = 150
             } = emailData;
