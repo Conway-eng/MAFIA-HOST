@@ -11,12 +11,12 @@ const nodemailer = require('nodemailer');
 
 
 const transporter = nodemailer.createTransport({
-  host: 'relay.dnsexit.com',
-    port: 587,
-    secure: false,
-    auth: {
-       user: 'conway360',
-    pass: 'kim2024K'
+ host: "smtp.ethereal.email",
+  port: 587,
+  secure: false, // true for 465, false for other ports
+  auth: {
+    user: "maddison53@ethereal.email",
+    pass: "jn7jnAPss4f63QBp6D",
       }
 });
 
