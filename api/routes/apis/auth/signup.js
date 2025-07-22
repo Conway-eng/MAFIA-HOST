@@ -96,7 +96,7 @@ router.post('/signup', async (req, res) => {
         const normalizedEmail = normalizeEmail(email);
         
         
-        const allowedDomains = ['gmail.com', 'talkdrove.com'];
+        const allowedDomains = ['gmail.com', 'yahoo.com'];
         const domain = normalizedEmail.split('@')[1].toLowerCase();
         if (!allowedDomains.includes(domain)) {
             return res.status(400).json({ success: false, message: 'Only Gmail and TalkDrove emails are allowed' });
