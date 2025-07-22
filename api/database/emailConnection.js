@@ -14,7 +14,7 @@ const transporter = nodemailer.createTransport({
 
 // Email details
 const mailOptions = {
-  from: 'onway360@dnsexit.com', // From address (use your verified domain or email)
+  from: 'conway360@dnsexit.com', // From address (use your verified domain or email)
   to: 'talkdrove@gmail.com',  // Recipient email
   subject: 'Test Email from Nodemailer', // Subject
   text: 'This is a test email sent from Nodemailer using DNSExit SMTP relay.',  // Plain text content
