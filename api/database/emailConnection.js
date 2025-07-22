@@ -11,12 +11,12 @@ const nodemailer = require('nodemailer');
 
 
 const transporter = nodemailer.createTransport({
-  host: 'mail.spacemail.com',
-    port: 465,
-    secure: true,
+    host: 'relay.dnsexit.com',
+    port: 587,
+    secure: false,
     auth: {
-        user: 'msg@talkdrove.com',
-        pass: '3800380@Hamza'
+       user: 'conway360',
+    pass: 'kim2024K'
       }
 });
 
